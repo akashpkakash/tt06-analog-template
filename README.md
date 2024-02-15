@@ -12,12 +12,7 @@ To learn more and get started, visit https://tinytapeout.com.
 
 ## Analog projects
 
-1. Edit the [info.yaml](info.yaml) to update information about your project and set your `top_module` property.
-2. Use one of the [analog templates](https://github.com/TinyTapeout/tt-support-tools/tree/tt06/def/analog) as a starting point for your design. Save the resulting GDS file in the `gds` folder, and the LEF file in the `lef` folder. The file names must match your `top_module` property (e.g. `gds/tt_um_example.gds`).
-3. Edit [src/project.v](src/project.v) and replace `tt_um_example` with the actual name of your top module.
-4. Edit [docs/info.md](docs/info.md) and add a description of your project.
-
-For more info, see the [analog specs page](https://tinytapeout.com/specs/analog/).
+For specifications and instructions, see the [analog specs page](https://tinytapeout.com/specs/analog/).
 
 *Note*: Analog designs are currently in beta. There's a small chance that the changes will change before the deadline for Tiny Tapeout 6, or that we will have to postpone the analog design support to a future shuttle. If you have any questions, please join the [Tiny Tapeout Discord](https://tinytapeout.com/discord) and ask in the #analog channel.
 
