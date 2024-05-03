@@ -19,6 +19,7 @@ module tt_um_example (
     assign uio_oue = 0;
     assign uo_out[0] = ui_in[0] ^ ui_in[1];
     assign uo_out[1] = ui_in[0] & ui_in[1];
+    assign[7:0] = 6'bt0;
     
     
 
