@@ -15,5 +15,14 @@ module tt_um_example (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
+    assign uio_out = 0;
+    assign uio_oue = 0;
+    assign uo_out[0] = ui_in[0] ^ ui_in[1];
+    assign uo_out[1] = ui_in[0] & ui_in[1];
+    
+    
 
+    
+    
+    
 endmodule
